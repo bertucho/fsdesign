@@ -1,0 +1,3 @@
+Ella es {{ nacionalidad_ella }} y él {{ nacionalidad_el }}.
+Manuel es {{ pasado }}, y a pesar de ello, Laura quiere estar con él.
+Laura un día {{ circunstancia }}. A "consecuencia" de ello, Manuel {{ consecuencia }}.

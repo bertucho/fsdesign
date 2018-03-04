@@ -1,0 +1,5 @@
+Sara y David mantienen una relación sentimental desde hace un tiempo. {{origen}}, y aunque a veces han tenido algunas diferencias porque {{roles}}, su relación actualmente está consolidada. 
+Sara sabe desde el inicio de la relación que David {{justificacion}}. Sin embargo, eso no ha impedido que Sara quiera estar con él. 
+Hace dos días, {{contexto}}. A raíz de esto, David {{evento}}. 
+A pesar de que este comportamiento por parte de David {{frecuencia}}, Sara se encuentra confundida por lo que ha sucedido y no sabe cómo afrontar esta situación.
+
