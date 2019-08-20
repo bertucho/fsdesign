@@ -14,6 +14,7 @@ from fsdesign import cli
 
 THIS_DIR = os.path.dirname(os.path.abspath(__file__))
 
+
 class TestFsdesign(unittest.TestCase):
     """Tests for `fsdesign` package."""
 
@@ -22,12 +23,6 @@ class TestFsdesign(unittest.TestCase):
         self.factors_csv = os.path.join(THIS_DIR, 'data/factors.csv')
         self.text_template_file = os.path.join(THIS_DIR, 'data/template.txt')
         self.output_csv = os.path.join(THIS_DIR, 'data/output.csv')
-
-    def tearDown(self):
-        """Tear down test fixtures, if any."""
-
-    def test_000_something(self):
-        """Test something."""
 
     @unittest.skip
     def test_command_line_interface(self):

@@ -8,12 +8,12 @@ from fsdesign import fsdesign
 
 
 @click.command()
-@click.option('--template', help='Path to template text file for vignettes', type=click.Path(exists=True),
+@click.option('-t', '--template', help='Path to template text file for vignettes', type=click.Path(exists=True),
               prompt=True)
-@click.option('--factors', help='Path to factors csv file', type=click.Path(exists=True), prompt=True)
-@click.option('--size', help='Number of resulting vignettes', type=int, prompt=True)
-@click.option('--output', help='Output file path', type=click.Path())
-@click.option('--duplicates', help='Flag for duplicated vignettes', is_flag=True)
+@click.option('-f', '--factors', help='Path to factors csv file', type=click.Path(exists=True), prompt=True)
+@click.option('-s', '--size', help='Number of resulting vignettes', type=int, prompt=True)
+@click.option('-o', '--output', help='Output file path', type=click.Path())
+@click.option('-d', '--duplicates', help='Flag for duplicated vignettes', is_flag=True)
 def main(template, factors, size, output, duplicates):
     """Console script for fsdesign."""
 

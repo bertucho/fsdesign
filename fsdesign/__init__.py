@@ -4,4 +4,4 @@
 
 __author__ = """Alberto Egido"""
 __email__ = 'aroy@alum.mit.edu'
-__version__ = '0.1.3'
+__version__ = '0.1.4'

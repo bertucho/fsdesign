@@ -5,7 +5,7 @@ Credits
 Development Lead
 ----------------
 
-* Alberto Egido <aroy@alum.mit.edu>
+* Alberto Egido <colibri.rizos@gmail.com>
 
 Contributors
 ------------

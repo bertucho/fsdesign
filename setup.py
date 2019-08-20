@@ -12,13 +12,12 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 requirements = [
-    'Click>=6.0',
-    'Jinja2==2.10'
-    # TODO: Put package requirements here
+    'Click>=7.0',
+    'Jinja2>=2.10.1'
 ]
 
 setup_requirements = [
-    # TODO(bertucho): Put setup requirements (distutils extensions, etc.) here
+    # TODO: Put setup requirements (distutils extensions, etc.) here
 ]
 
 test_requirements = [
@@ -27,7 +26,7 @@ test_requirements = [
 
 setup(
     name='fsdesign',
-    version='0.1.3',
+    version='0.1.4',
     description="Python package for Factorial Survey Design",
     long_description=readme + '\n\n' + history,
     author="Alberto Egido",

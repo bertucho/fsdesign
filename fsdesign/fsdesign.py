@@ -62,7 +62,7 @@ class FSDesign:
 
         for params in vignette_params:
             params_dict = params._asdict()
-            yield self.text_template.render(**params._asdict()), params_dict
+            yield self.text_template.render(params_dict), params_dict
 
     def to_csv(self, path):
         """Write vignettes to a csv file"""
@@ -83,5 +83,3 @@ class FSDesign:
                 row = {'ID': id, 'Text': text}
                 row.update(params_dict)
                 writer.writerow(row)
-
-
